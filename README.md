@@ -13,4 +13,4 @@ This is a dummy meteor app created to reproduce https://youtrack.jetbrains.com/i
 
 1. Open, say, `imports/api/links.ts`. Note that WebStorm highlights `LinksCollection` as "not used".
 2. Open `imports/ui/Info.tsx`. Note that `LinksCollection` is imported there.
-3. Changing `import { LinksCollection } from '/imports/api/links';` to `import { LinksCollection } from 'imports/api/links';` in `Info.tsc` fixes the issue. 
+3. Changing `import { LinksCollection } from '/imports/api/links';` to `import { LinksCollection } from 'imports/api/links';` in `Info.tsx` fixes the issue. 
